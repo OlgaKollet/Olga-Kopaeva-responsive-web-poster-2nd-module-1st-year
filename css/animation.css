@@ -1,0 +1,40 @@
+
+@keyframes ball{
+    0%{ top: 0%; left: 0%;}
+    50%{ top: 0%; left: 20%;}
+    100%{ top: 0%; left: 0%;}
+}
+@keyframes ball2{
+    0%{ top: 141px; left: 273px;}
+    50%{ top: 200px; left: 273px;}
+    100%{ top: 141px; left: 273px;}
+}
+@keyframes ball3{
+    0%{ top: 308px; left: 0%;}
+    50%{ top: 308px; left: 20%;}
+    100%{ top: 308px; left: 0%;}
+}
+@media (max-width: 768px){
+    @keyframes ball2{
+        0%{ top: 55px; left: 160px;}
+        50%{ top: 100px; left: 160px;}
+        100%{ top: 55px; left: 160px;}
+    }
+    @keyframes ball3{
+        0%{ top: 100px; left: 0%;}
+        50%{ top: 100px; left: 20%;}
+        100%{ top: 100px; left: 0%;}
+    }
+}
+@media (max-width: 414px){
+    @keyframes ball2{
+        0%{ top: 37px; left: 80px;}
+        50%{ top: 100px; left: 80px;}
+        100%{ top: 37px; left: 80px;}
+    }
+    @keyframes ball3{
+        0%{ top: 60px; left: 0%;}
+        50%{ top: 60px; left: 20%;}
+        100%{ top: 60px; left: 0%;}
+    }
+}
